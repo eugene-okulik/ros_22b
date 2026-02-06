@@ -4,13 +4,15 @@ my_dict = {"tuple": (1, True, "new", 6.67, [1, 5, 7, 9]), "list": ["new" "python
 #  Действия с кортежем
 print("Значение последнего элемента кортежа: ", my_dict["tuple"][-1])
 
-# Действия со списком
+#  Действия со списком
 my_dict["list"].append("new")
 delete_param = my_dict["list"].pop(1)
 print("Значение удаленного параметра: ", delete_param)
 
 #  Действия со словарем
 my_dict["dict"]['i am a tuple'] = "new word"
+my_dict["dict"].pop('i am a tuple')
+my_dict["dict"][('i am a tuple',)] = "I love a tuple!"
 delete_param_dict = my_dict["dict"].pop("four")
 print("Значение удаленного параметра: ", delete_param_dict)
 

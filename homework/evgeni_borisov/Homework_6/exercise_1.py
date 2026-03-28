@@ -18,6 +18,3 @@ for word in words:
 
 new_text = ' '.join(words_list)
 print(new_text)
-
-
-

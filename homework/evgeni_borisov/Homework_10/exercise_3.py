@@ -31,10 +31,3 @@ first_num = int(input("Введите первое число: "))
 second_num = int(input("Введите второе число: "))
 
 print(calc(first_num, second_num))
-
-'''просьба пояснить про аргумент "operation". Должен ли я его передавать в функции "wrapper"? Если я его передаю
-без заданного значения, то ловлю ошибку, что аргумент не задан
-(TypeError: calc_func.<locals>.wrapper() missing 1 required positional argument: 'operation'), 
-а если не передаватать и закомментировать строки 11-12, 
-то тогда синтаксис  ругается на 19 строку "Local variable 'operation' might be referenced before assignment)
-'''
